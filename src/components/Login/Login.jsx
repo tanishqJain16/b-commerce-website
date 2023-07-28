@@ -86,6 +86,7 @@ function Login() {
                     <p>Don't have an account? <Link to="/signup">Sign up</Link></p>
                 </div>
             </div>
+            <Link to="/product">Product</Link>
         </div>
     )
 }
