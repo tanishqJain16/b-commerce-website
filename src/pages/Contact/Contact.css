@@ -1,0 +1,276 @@
+.contactLanding {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../../assets/contactBack.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    padding: 1rem;
+}
+
+.contactLanding>.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.25rem;
+}
+
+.contactLanding>.logo>.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contactLanding>.logo>.socials>img {
+    cursor: pointer;
+}
+
+.contactLanding>.contactForm {
+    display: flex;
+    padding: 2.5rem 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.75rem;
+    border-radius: 0.5rem;
+    background: var(--neutral-50, #FAFAFA);
+    box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.06);
+    width: 34.875rem;
+}
+
+.contactLanding>.contactForm>.contactHeading {
+    color: #000;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.375rem;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.contactLanding>.contactForm>div {
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactLanding>.contactForm>.email {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.contactLanding>.contactForm>.phone {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.contactLanding>.contactForm>.phone>.phoneInput {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.contactLanding>.contactForm>.phone>.phoneInput>input {
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0.5rem 0;
+}
+
+.callLogo {
+    border: 0.6px solid var(--black, #0D0B0E);
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0.625rem;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+
+.contactLanding>.contactForm>.name>div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+label {
+    color: #000;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+input {
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    border: 0.6px solid var(--black, #0D0B0E);
+    background: var(--white, #FFF);
+    color: var(--neutral-600, #576060);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.contactLanding>.contactForm>.message {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.contactLanding>.contactForm>.message>label {
+    align-self: flex-start;
+}
+
+.contactLanding>.contactForm>.message>textarea {
+    display: flex;
+    height: 6rem;
+    padding: 12px 0.75rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    border-radius: 0.25rem;
+    border: 0.6px solid var(--black, #0D0B0E);
+    background: var(--white, #FFF);
+    color: var(--neutral-600, #576060);
+    font-size: 0.875rem;
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.contactLanding>.contactForm>.message>textarea:focus {
+    outline: none;
+}
+
+.contactLanding>.contactForm>.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contactLanding>.contactForm>.submit>button {
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    width: 100%;
+    border-radius: 0.25rem;
+    background: var(--primary-400-main, #D12065);
+    color: var(--neutral-50, #FAFAFA);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+    border: none;
+    cursor: pointer;
+}
+
+.contact>.newsLetter {
+    display: flex;
+    width: 100%;
+    padding: 3.5rem 0.625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    background: var(--secondary-50, #F8EAE8)
+}
+
+.contact>.newsLetter>.newsLetterHeading {
+    color: var(--black, #0D0B0E);
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.375rem;
+}
+
+.contact>.newsLetter>.newsLetterSubHeading {
+    color: var(--neutral-600, #576060);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 35rem;
+}
+
+.contact>.newsLetter>.emailSubmit {
+    display: flex;
+    max-width: 35rem;
+    width:100%;
+}
+
+.contact>.newsLetter>.emailSubmit>input {
+    display: flex;
+    height: 2.5rem;
+    padding-left: 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 0.25rem;
+    border: 0.6px solid #000;
+    background: var(--white, #FFF);
+    color: var(--neutral-600, #576060);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.contact>.newsLetter>.emailSubmit>button {
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+    border-radius: 0rem 0.25rem 0.25rem 0rem;
+    background: var(--primary-400-main, #D12065);
+    color: var(--neutral-50, #FAFAFA);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1100px){
+    .contactLanding{
+        flex-direction: column;
+        gap: 4rem;
+    }
+}
+
+@media screen and (max-width:600px){
+    .contactLanding>.contactForm{
+        width: 95%;
+    }
+}

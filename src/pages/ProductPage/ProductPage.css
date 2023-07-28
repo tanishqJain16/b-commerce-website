@@ -1,0 +1,421 @@
+.product {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0rem 9.3125rem 0rem 9.4375rem;
+    justify-content: center;
+    align-items: start;
+    margin-top: 2.5rem;
+}
+
+.product>a {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.25rem;
+    color: var(--black, #0D0B0E);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mainPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin: 1rem;
+}
+
+.productArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.itemSideImg {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    cursor: pointer;
+    background-color: #0D0B0E;
+}
+
+.active {
+    border: 4px solid var(--primary-300, #D64C82);
+}
+
+.activeProduct>img {
+    width: 34.875rem;
+    height: 48rem;
+    object-fit: cover;
+}
+
+.product>.mainPage>.activeProductDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.75rem;
+    height: max-content;
+}
+
+.product>.mainPage>.activeProductDetails>.productHeading {
+    color: var(--black, #0D0B0E);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.productRating {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0.75rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    background: var(--secondary-50, #F8EAE8);
+    color: var(--primary-400-main, #D12065);
+    text-align: center;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 0.5rem;
+}
+
+.productDescription {
+    color: var(--neutral-900, #272B2B);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.3125rem;
+}
+
+.pricing>.price {
+    display: flex;
+    align-items: center;
+    gap: 0.3125rem;
+    justify-content: center;
+}
+
+.pricing>.price>.actualPrice {
+    color: var(--neutral-600, #576060);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: line-through;
+    display: flex;
+    gap: 0.3125rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing>.price>.disCountPrice {
+    color: #000;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: none;
+}
+
+.pricing>.tax {
+    color: var(--neutral-600, #576060);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+}
+
+.colors>.colorsHeading {
+    color: var(--black, #0D0B0E);
+    text-align: center;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.colorsPalatte {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.colorsPalatte>.colorCircle {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.colorsPalatte>.activeColor {
+    scale: 0.8;
+}
+
+.quantity {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+}
+
+.quantity>.quantityHeading {
+    color: var(--black, #0D0B0E);
+    text-align: center;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.quantity>.quantityArea {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+.quantity>.quantityArea>.quantityTracker {
+    display: flex;
+    width: 10.625rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.25rem;
+    border: 1.429px solid var(--primary-400-main, #D12065);
+}
+
+.quantity>.quantityArea>.quantityTracker>.quantityDecrementor {
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-400-main, #D12065);
+    cursor: pointer;
+}
+
+.quantity>.quantityArea>.quantityTracker>.quantityDecrementor>.stroke {
+    width: 1.07144rem;
+    height: 1.429px;
+    background-color: var(--white, #FFF);
+}
+
+.quantity>.quantityArea>.quantityTracker>.quantityNumber {
+    color: var(--black, #0D0B0E);
+    font-size: 1.42856rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.quantity>.quantityArea>.quantityTracker>.quantityIncrementor {
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-400-main, #D12065);
+    cursor: pointer;
+}
+
+.quantity>.quantityArea>.quantityTracker>.quantityIncrementor>.stroke1 {
+    width: 1.07144rem;
+    height: 1.429px;
+    background-color: var(--white, #FFF);
+}
+
+.quantity>.quantityArea>.quantityTracker>.quantityIncrementor>.stroke1>.stroke2 {
+    width: 1.07144rem;
+    height: 1.429px;
+    background-color: var(--white, #FFF);
+    transform: rotate(90deg);
+}
+
+.quantity>.quantityArea>.addToCart {
+    display: flex;
+    width: 10.68563rem;
+    height: 2.57106rem;
+    padding: 0.75rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    background: var(--primary-400-main, #D12065);
+    color: var(--neutral-50, #FAFAFA);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+    border: none;
+    cursor: pointer;
+}
+
+.offers {
+    display: flex;
+    padding: 1.5rem 0.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    width: 22.75rem;
+}
+
+.offers>.offersHeading {
+    color: var(--black, #0D0B0E);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.offers>.offersDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.offers>.offersDetails>.eachOffer {
+    display: flex;
+    gap: 0.5rem;
+    align-items: first baseline;
+}
+
+.offers>.offersDetails>.eachOffer>.circle {
+    width: 0.5rem;
+    height: 0.5rem;
+    aspect-ratio: 1/1;
+    background-color: var(--black, #0D0B0E);
+    border-radius: 100%;
+}
+
+.offers>.offersDetails>.eachOffer>.list {
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.25rem; */
+}
+
+.offers>.offersDetails>.eachOffer>.list>a {
+    color: var(--links-400-main, #0671E0);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+    .mainPage {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .productArea {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:500px){
+    .product>.mainPage>.activeProductDetails>.productHeading{
+        font-size: 2rem;
+    }
+
+    .product>.mainPage>.activeProductDetails>.productRating{
+        font-size: 2rem;
+    }
+
+    .product>.mainPage>.activeProductDetails>.productDescription{
+        font-size: 1.5rem;
+    }
+
+    .product>.mainPage>.activeProductDetails>.pricing>.price>.actualPrice{
+        font-size: 2rem;
+    }
+
+    .product>.mainPage>.activeProductDetails>.pricing>.price>.disCountPrice{
+        font-size: 2rem;
+    }
+
+    .product>.mainPage>.activeProductDetails>.pricing>.tax{
+        font-size: 1.5rem;
+    }
+
+    .product>.mainPage>.activeProductDetails>.colors>.colorsHeading{
+        font-size: 2rem;
+    }
+
+    .colorsPalatte>.colorCircle{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .product>.mainPage>.activeProductDetails>.quantity>.quantityHeading{
+        font-size: 2rem;
+    }
+
+    .product>.mainPage>.activeProductDetails>.quantity>.quantityArea>.quantityTracker>.quantityDecrementor{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .product>.mainPage>.activeProductDetails>.quantity>.quantityArea>.quantityTracker>.quantityNumber{
+        font-size: 2rem;
+    }
+
+    .product>.mainPage>.activeProductDetails>.quantity>.quantityArea>.quantityTracker>.quantityIncrementor{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .product>.mainPage>.activeProductDetails>.quantity>.quantityArea>.addToCart{
+        width: 20rem;
+        height: 5rem;
+        font-size: 2rem;
+    }
+
+    .quantity>.quantityArea>.quantityTracker{
+        width: 20rem;
+    }
+
+    .offers>.offersHeading{
+        font-size: 2rem;
+    }
+
+    .offers>.offersDetails>.eachOffer>.list>a{
+        font-size: 2rem;
+    }
+
+    .offers>.offersDetails>.eachOffer>.list{
+        font-size: 2rem;
+    }
+
+    .offers>.offersDetails>.eachOffer{
+        font-size: 2rem;
+    }
+
+    .offers>.offersDetails{
+        width: 55rem;
+    } 
+}

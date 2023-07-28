@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500&display=swap');
+
+.login {
+    display: flex;
+    width: 47rem;
+    padding: 2.75rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.75rem;
+    border-radius: 0.5rem;
+    background: var(--neutral-50, #FAFAFA);
+    box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.06);
+    font-family: poppins, sans-serif;
+    margin: 1rem;
+    position: relative;
+}
+
+.login>.cross {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    position: absolute;
+    right: 1.25rem;
+    top: 1.25rem;
+}
+
+.login>.cross>img {
+    cursor: pointer;
+}
+
+.login>.heading {
+    color: var(--black, #0D0B0E);
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.75rem;
+}
+
+.login>.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.login>.socials>img {
+    cursor: pointer;
+}
+
+.login>.orText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.login>.orText>.line {
+    width: 10.25rem;
+    height: 0.0375rem;
+    background: #272B2B;
+}
+
+.login>.orText>.or {
+    color: var(--neutral-900, #272B2B);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 0.5rem;
+}
+
+.login>.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 70%;
+}
+
+.login>.loginForm>.email,
+.password {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.25rem;
+}
+
+.login>.loginForm>div>label {
+    color: var(--black, #0D0B0E);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.125rem;
+}
+
+.login>.loginForm>.email>input {
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    border: 0.6px solid #000;
+    background: var(--white, #FFF);
+    color: var(--neutral-600, #576060);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.login>.loginForm>.password>.passwordInput {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: start;
+}
+
+.login>.loginForm>.password>.passwordInput>input {
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    border: 0.6px solid #000;
+    background: var(--white, #FFF);
+    color: var(--neutral-600, #576060);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    width: 100%;
+}
+
+.eye {
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: #D12065;
+}
+
+.login>.loginForm>.password>.forgotPassword {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.login>.loginForm>.password>.forgotPassword>p {
+    color: var(--links-400-main, #0671E0);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.125rem;
+}
+
+.login>.loginForm>.rememberMe {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.login>.loginForm>.rememberMe>input {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 0.25rem;
+    border: 0.6px solid #000;
+    background: var(--white, #FFF);
+    color: var(--neutral-600, #576060);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    accent-color: #D12065;
+}
+
+.login>.loginForm>.loginBtn {
+    display: flex;
+    width: 10.625rem;
+    padding: 0.75rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.25rem;
+    background: var(--primary-400-main, #D12065);
+    color: var(--neutral-50, #FAFAFA);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.login>.loginForm>.noAccount {
+    margin-top: -1.5rem;
+}
+
+.login>.loginForm>.noAccount>p {
+    color: var(--black, #0D0B0E);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.login>.loginForm>.noAccount>p>a {
+    color: var(--links-400-main, #0671E0);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px){
+    .login{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:440px){
+    .login>.orText>.line {
+        width: 8.25rem;;
+    }
+
+    .login>.loginForm>.rememberMe>input {
+        width: 1.1rem;
+        height: 1.1rem;
+    }    
+
+    .login>.loginForm>.rememberMe>p {
+        font-size: 0.8rem;
+    }
+
+
+}
