@@ -1,9 +1,9 @@
 import "./Contact.css";
 import logo from "../../assets/Logo.svg"
-import instagram from "../../assets/socials/instagram.svg"
-import twitter from "../../assets/socials/twitter.svg"
-import facebook from "../../assets/socials/facebook.svg"
-import linkedin from "../../assets/socials/linkedin.svg"
+import instagram from "../../assets/socials/Instagram.svg"
+import twitter from "../../assets/socials/Twitter.svg"
+import facebook from "../../assets/socials/Facebook.svg"
+import linkedin from "../../assets/socials/Linkedin.svg"
 import call from "../../assets/call.svg"
 import { useState } from "react";
 import { toast } from "react-hot-toast";
